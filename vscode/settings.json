@@ -1,0 +1,10 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.autoClosingBrackets": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.scrollBeyondLastLine": false,
+  "files.autoSave": "off",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "workbench.colorTheme": "Default Light+"
+}

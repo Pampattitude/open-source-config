@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "node.js",
+    "js",
+    "javascript"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern tests .",
+    "test": "nyc mocha -S --recursive tests"
+  },
+  "author": "Pampattitude",
+  "license": "LGPL",
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0"
+  }
+}
